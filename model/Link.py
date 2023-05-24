@@ -5,7 +5,7 @@ from typing import Union
 @dataclass
 class LinkConfig:
     ip: str
-    mask: str
+    mask: int
 
 
 @dataclass
